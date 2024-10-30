@@ -1,0 +1,2 @@
+ZZ:/PC/Mesh/Pack/WARNEXT/Mesh_All.spk
+ZZ:/PC/TextureProxy/Pack/WARNEXT/Mesh_All.ndfbin
