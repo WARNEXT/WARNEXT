@@ -1,5 +1,0 @@
-GameData:/Localisation/WARNEXT/COMPANIES.csv
-GameData:/Localisation/WARNEXT/INTERFACE_INGAME.csv
-GameData:/Localisation/WARNEXT/INTERFACE_OUTGAME.csv
-GameData:/Localisation/WARNEXT/PLATOONS.csv
-GameData:/Localisation/WARNEXT/UNITS.csv
