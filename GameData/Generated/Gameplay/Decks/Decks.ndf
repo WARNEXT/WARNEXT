@@ -1,5 +1,18 @@
 // Ne pas éditer, ce fichier est généré par DecksFileWriter
 
+//Start mod
+
+export Descriptor_Deck_FR_1e_Blindee_multi is TDeckDescriptor
+(
+    DeckName = 'FR1DB'
+    DeckDivision = ~/Descriptor_Deck_Division_FR_1e_Blindee_multi
+    DeckPackList =
+    [
+
+    ]
+)
+
+//End mod
 
 export Descriptor_Deck_RDA_4_MSD_multi is TDeckDescriptor
 (

@@ -4,6 +4,16 @@ private DivisionRules is TDeckDivisionRules
 (
     DivisionRules = MAP
     [
+    (
+            ~/Descriptor_Deck_Division_FR_1e_Blindee_multi,
+            TDeckDivisionRule
+            (
+                UnitRuleList =
+                [
+
+                ]
+            )
+        ),
         (
             ~/Descriptor_Deck_Division_FR_11e_Para_multi,
             TDeckDivisionRule

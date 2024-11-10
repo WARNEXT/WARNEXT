@@ -1,7 +1,13 @@
 // Ne pas éditer, ce fichier est généré par DivisionTextureFileWriter
 
+//Start mod
 
+Texture_Division_Emblem_FR_1eDB is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_5eDB.png"
+)
 
+//End mod
 
 Texture_Division_Emblem_FR_11e_Para is TUIResourceTexture_Common
 (
