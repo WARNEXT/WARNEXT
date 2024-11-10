@@ -4,7 +4,7 @@
 
 Descriptor_Deck_Division_FR_1e_Blindee_multi is TDeckDivisionDescriptor
 (
-    DescriptorId = GUID:{3eea10f1-c482-46f2-a747-f49879749d82}
+    DescriptorId = GUID:{2f8e985a-de86-438c-91ad-d3297adfa561}
     CfgName = 'FR_1e_Blindee_multi'
     DivisionName = 'FR1DB'
     DivisionPowerClassification = 'DC_PWR1'
