@@ -4,7 +4,7 @@
 
 Texture_Division_Emblem_FR_1eDB is TUIResourceTexture_Common
 (
-    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_5eDB.png"
+    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DivEmblemUI_1reDB.png"
 )
 
 //End mod
@@ -272,6 +272,7 @@ DivisionAdditionalTextureBank is TBUCKToolAdditionalTextureBank
 (
     Textures = MAP
     [
+        ("Texture_Division_Emblem_FR_1eDB", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_FR_1eDB)]),
         ("Texture_Division_Emblem_FR_11e_Para", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_FR_11e_Para)]),
         ("Texture_Division_Emblem_FR_152eID", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_FR_152eID)]),
         ("Texture_Division_Emblem_FR_5eDB", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_FR_5eDB)]),
