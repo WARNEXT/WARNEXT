@@ -7,6 +7,9 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
     Textures = MAP
     [
 
+        ("Texture_Button_Unit_GBC_180_supply_FR", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/BLUEFOR/FRA/FR_LOG_GBC180_V2.png"))]),
+
+
         ("Texture_Button_Unit_2K11_KRUG_DDR", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/PACT/2K11_KRUG_DDR.png"))]),
         ("Texture_Button_Unit_2K12_KUB_DDR", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/PACT/2K12_KUB_DDR.png"))]),
         ("Texture_Button_Unit_2K12_KUB_SOV", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/PACT/2K12_KUB_SOV.png"))]),
