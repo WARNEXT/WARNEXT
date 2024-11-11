@@ -1,6 +1,91 @@
 // Ne pas éditer, ce fichier est généré par AmmunitionFileWriter_StandardWeapon
 
 
+//Start Mod
+
+Ammo_HMG_12_7_mm_M2HB_mod is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{f3767b52-f9b4-4652-bd2c-266d88f79e34}
+    Name                              = 'SUJFTVYPPZ'
+    TypeCategoryName                  = 'GUQUYPXNMN'
+    Caliber                           = '12_7mm'
+    WeaponDescriptionToken            = 'OPSKECSVCI'
+    TraitsToken                       = [ 'MOTION', 'tripod', ]
+    WeaponCursorType                  = Weapon_Cursor_MachineGun
+    MinMaxCategory                    = MinMax_MMG_HMG
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_he_autocanon Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    ImpactHappening                   = [ 'MitrailleuseCal50Externe' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.3
+    TempsEntreDeuxFx                  = 0.3
+    PorteeMaximaleGRU                 = 1400
+    PorteeMaximaleTBAGRU              = 1225
+    PorteeMinimaleGRU                 = 53
+    AffecteParNombre                  = True
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU              = 64
+    DispersionAtMinRangeGRU              = 18
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 3
+    PhysicalDamages                   = 0.3
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 4
+    SuppressDamages                   = 28.0
+    AllowSuppressDamageWhenNoImpact                = False
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    MaximalSpeedGRU                   = 0.0
+    ShotWithoutPhysics                = False
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 3
+    TargetOnlyOneUnitInDistrict       = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{5216d636-6ea1-4bb7-ad6d-f02e299c2088}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 20),
+            (EBaseHitValueModifier/Moving, 10),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 5
+    TempsDeVisee                      = 2.5
+    TempsEntreDeuxSalves              = 2.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 5
+    SupplyCost                        = 5.0
+    NbSalvosShootOnPosition           = 3
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 20
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_12_7_mm_M2HB"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = True
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    FlightTimeForSpeed                    = 0.8
+    DistanceForSpeedGRU                   = 530.0
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+
+//End mod
+
+
+
 Ammo_AutoCanon_AP_20mm_M621_GIAT is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{eae3cc3b-b79c-4ef1-8f61-309389f6024a}

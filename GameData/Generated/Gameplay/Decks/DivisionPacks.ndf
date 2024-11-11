@@ -2,10 +2,19 @@
 
 //Start mod
 
+//Start 1re DB
+
 Descriptor_Deck_Pack_GBC_180_supply_FR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_GBC_180_supply_FR
 )
+
+Descriptor_Deck_Pack_VBMR_Griffon_CMD_FR is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_VBMR_Griffon_CMD_FR
+)
+
+//End 1re DB
 
 //End mod
 

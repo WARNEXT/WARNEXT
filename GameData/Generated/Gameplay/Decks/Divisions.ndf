@@ -14,6 +14,7 @@ Descriptor_Deck_Division_FR_1e_Blindee_multi is TDeckDivisionDescriptor
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_GBC_180_supply_FR, 1),
+        (~/Descriptor_Deck_Pack_VBMR_Griffon_CMD_FR, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_FR_1e_Blindee_multi

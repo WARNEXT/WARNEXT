@@ -1,5 +1,8 @@
 // Ne pas éditer, ce fichier est généré par OrderAvailabilityFileWriter_Specific
 
+Descriptor_OrderAvailability_VBMR_Griffon_CMD_FR is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'ShootOnPosition', 'ShootOnPositionWithoutCorrection', 'ShootDefensiveSmoke', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']
+
+
 
 Descriptor_OrderAvailability_2K11_KRUG_DDR is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']
 Descriptor_OrderAvailability_2K12_KUB_DDR is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']

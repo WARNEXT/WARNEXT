@@ -1481,6 +1481,11 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_Scout_Spetsnaz_VDV_SOV, 2507),
         ($/GFX/Unit/Descriptor_Unit_VAB_Reserve_FR, 2509),
         ($/GFX/Unit/Descriptor_Unit_F8P_Crusader_AA2_FR, 2511),
-        ($/GFX/Unit/Descriptor_Unit_GBC_180_supply_FR, 2512),
+
+
+
+
+        ($/GFX/Unit/Descriptor_Unit_GBC_180_supply_FR, 6000),
+        ($/GFX/Unit/Descriptor_Unit_VBMR_Griffon_CMD_FR, 6001),
     ]
 )

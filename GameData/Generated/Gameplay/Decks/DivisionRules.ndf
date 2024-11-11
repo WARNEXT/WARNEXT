@@ -17,6 +17,13 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 4
                         NumberOfUnitInPackXPMultiplier = [1.0, 0.68, 0.49, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_VBMR_Griffon_CMD_FR
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.4, 0.0]
+                    ),
                 ]
             )
         ),
