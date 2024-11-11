@@ -1,5 +1,30 @@
 // Ne pas éditer, ce fichier est généré par DivisionFileWriter
 
+//Start mod
+
+Descriptor_Deck_Division_FR_1e_Blindee_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{2f8e985a-de86-438c-91ad-d3297adfa561}
+    CfgName = 'FR_1e_Blindee_multi'
+    DivisionName = 'FR1DB'
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'FR', 'Allied', 'armored', 'DC_PWR1']
+    DescriptionHintTitleToken = 'FR1DB'
+    PackList = MAP
+    [
+
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_FR_1e_Blindee_multi
+    EmblemTexture     = "Texture_Division_Emblem_FR_1eDB"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "FR"
+)
+
+
+//End mod
 
 Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
 (

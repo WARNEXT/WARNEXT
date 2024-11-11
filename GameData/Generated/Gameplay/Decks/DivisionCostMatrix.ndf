@@ -1,5 +1,23 @@
 // Ne pas éditer, ce fichier est généré par DivisionCostMatrixFileWriter
 
+//Start mod
+
+MatrixCostName_FR_1e_Blindee_multi is MAP
+[
+    (EDefaultFactories/Art, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
+    (EDefaultFactories/DCA, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
+    (EDefaultFactories/Defense, [0]),
+    (EDefaultFactories/Helis, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
+    (EDefaultFactories/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
+    (EDefaultFactories/Logistic, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
+    (EDefaultFactories/Planes, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
+    (EDefaultFactories/Recons, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
+    (EDefaultFactories/Tanks, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
+]
+
+
+//End mod
+
 
 MatrixCostName_Challenge is MAP
 [

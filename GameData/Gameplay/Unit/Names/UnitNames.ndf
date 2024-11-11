@@ -110,6 +110,6 @@ unnamed TLocalisationDicoResource
 )
 unnamed TLocalisationDicoResource
 (
-    DicoToken = "NAMES_WARNEXT"
+    DicoToken = "NAMES_MOD"
     FileName = "GameData:/Gameplay/Unit/Names/UNITNAMES_WARNEXT.csv"
 )

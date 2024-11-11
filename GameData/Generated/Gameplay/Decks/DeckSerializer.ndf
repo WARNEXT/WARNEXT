@@ -187,6 +187,8 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Division_US_35th_Inf_multi, 301),
         (Descriptor_Deck_Division_FR_152e_Infanterie_multi, 304),
         (Descriptor_Deck_Division_SOV_76_VDV_multi, 305),
+
+        (Descriptor_Deck_Division_FR_1e_Blindee_multi, 306),
     ]
 
     UnitIds = MAP
