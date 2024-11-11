@@ -4,6 +4,9 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
 (
     UnitToShowRoomEquivalent = Map [
 
+        ( $/GFX/Unit/Descriptor_Unit_GBC_180_supply_FR, $/GFX/Unit/Descriptor_ShowRoomUnit_GBC_180_supply_FR ),
+
+
         ( $/GFX/Unit/Descriptor_Unit_2K11_KRUG_DDR, $/GFX/Unit/Descriptor_ShowRoomUnit_2K11_KRUG_DDR ),
         ( $/GFX/Unit/Descriptor_Unit_2K12_KUB_DDR, $/GFX/Unit/Descriptor_ShowRoomUnit_2K12_KUB_DDR ),
         ( $/GFX/Unit/Descriptor_Unit_2K12_KUB_SOV, $/GFX/Unit/Descriptor_ShowRoomUnit_2K12_KUB_SOV ),

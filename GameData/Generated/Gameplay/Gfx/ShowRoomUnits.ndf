@@ -1,5 +1,43 @@
 // Ne pas éditer, ce fichier est généré par ShowRoomUnitDescriptorFileWriter
 
+//Start mod
+
+export Descriptor_ShowRoomUnit_GBC_180_supply_FR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{0800debe-49e4-4b50-a01a-966575584f05}
+    ClassNameForDebug   = "ShowRoomUnit_GBC_180_supply_FR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Logistic
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_TRM_10000_supply_FR_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_TRM_10000_supply_FR
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = False
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+
+//End mod
 
 export Descriptor_ShowRoomUnit_2K11_KRUG_DDR is TEntityDescriptor
 (

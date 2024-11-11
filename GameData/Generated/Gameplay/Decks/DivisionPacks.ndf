@@ -1,5 +1,14 @@
 // Ne pas éditer, ce fichier est généré par DivisionPacksFileWriter
 
+//Start mod
+
+Descriptor_Deck_Pack_GBC_180_supply_FR is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_GBC_180_supply_FR
+)
+
+//End mod
+
 
 Descriptor_Deck_Pack_2K11_KRUG_DDR is DeckPackDescriptor
 (

@@ -10,7 +10,13 @@ private DivisionRules is TDeckDivisionRules
             (
                 UnitRuleList =
                 [
-
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_GBC_180_supply_FR
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 4
+                        NumberOfUnitInPackXPMultiplier = [1.0, 0.68, 0.49, 0.0]
+                    ),
                 ]
             )
         ),
