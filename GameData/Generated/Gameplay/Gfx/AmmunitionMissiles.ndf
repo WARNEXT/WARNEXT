@@ -44,7 +44,7 @@ Ammo_SAM_Aster30_Block1_x8 is TAmmunitionDescriptor
     TargetOnlyOneUnitInDistrict       = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-        DescriptorId          = GUID:{d6ddf20e-22a2-47e5-a02a-eb9f89aaa339}
+        DescriptorId          = GUID:{3e768604-e07d-4bef-ad61-61e8fb4eb245}
         BaseCriticModifier = 25
         BaseHitValueModifiers =
         [

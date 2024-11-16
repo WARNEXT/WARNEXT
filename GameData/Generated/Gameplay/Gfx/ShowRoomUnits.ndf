@@ -2,8 +2,6 @@
 
 //START WARNEXT MOD
 
-//Start 1re DB
-
 export Descriptor_ShowRoomUnit_GBC_180_supply_FR is TEntityDescriptor
 (
     DescriptorId        = GUID:{0800debe-49e4-4b50-a01a-966575584f05}
@@ -114,7 +112,41 @@ export Descriptor_ShowRoomUnit_SAMP_Mamba_FRA is TEntityDescriptor
     ]
 )
 
-//End 1re DB
+export Descriptor_ShowRoomUnit_CAESAR_6x6_MKII_FR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{330d4bb5-40d9-4490-bea1-363adc394f1b}
+    ClassNameForDebug   = "ShowRoomUnit_CAESAR_6x6_MKII_FR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_AMX_30_AuF1_FR_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_AMX_30_AuF1_FR //TODO change for 3D
+        ),
+        $/GFX/Weapon/WeaponDescriptor_CAESAR_6x6_MKII_FR,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_artillery
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
 
 //END WARNEXT MOD
 

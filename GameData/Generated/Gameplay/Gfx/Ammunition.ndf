@@ -6,7 +6,7 @@
 Ammo_HMG_12_7_mm_M2HB_T1_Hornet_RWS is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{f3767b52-f9b4-4652-bd2c-266d88f79e34}
-    Name                              = 'SUJFTVYPPZ'
+    Name                              = 'T1HORNET'
     TypeCategoryName                  = 'GUQUYPXNMN'
     Caliber                           = '12_7mm'
     WeaponDescriptionToken            = 'OPSKECSVCI'
@@ -79,6 +79,160 @@ Ammo_HMG_12_7_mm_M2HB_T1_Hornet_RWS is TAmmunitionDescriptor
     TandemCharge                      = False
     FlightTimeForSpeed                    = 0.8
     DistanceForSpeedGRU                   = 530.0
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Howz_Canon_CAESAR_MKII_155mm_52Cal is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{df62a493-b240-47cd-be7b-f4dee6af671d}
+    Name                              = '15552CESAR'
+    TypeCategoryName                  = 'KKZDHFFCTH'
+    Caliber                           = '155mm'
+    WeaponDescriptionToken            = 'RDHZLCYGPG'
+    TraitsToken                       = [ 'STAT', 'HE', 'CLGP', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_obusier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = [ 'ArtillerieM185155Mm' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 3.0
+    TempsEntreDeuxFx                  = 3.0
+    PorteeMaximaleGRU                 = 30000
+    PorteeMinimaleGRU                 = 3000
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU              = 150
+    DispersionAtMinRangeGRU              = 60
+    DispersionWithoutSorting          = True
+    CorrectedShotDispersionMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 82
+    PhysicalDamages                   = 4.00
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 130
+    SuppressDamages                   = 250.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    MaximalSpeedGRU                   = 0.0
+    ShotWithoutPhysics                = False
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{971e99c7-441d-4573-b517-cc6ec03d2296}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 0),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    TempsDeVisee                      = 15.0
+    TempsEntreDeuxSalves              = 55.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 6
+    SupplyCost                        = 180.0
+    NbSalvosShootOnPosition           = 1
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 7
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_GCT_F1"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.25
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    FlightTimeForSpeed                    = 25.0
+    DistanceForSpeedGRU                   = 30000.0
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Howz_Canon_CAESAR_MKII_155mm_52Cal_SMOKE is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{54b38ff7-b831-457a-aa38-bfa70bf3017b}
+    Name                              = '15552CESAR'
+    TypeCategoryName                  = 'KKZDHFFCTH'
+    Caliber                           = '155mm'
+    WeaponDescriptionToken            = 'RDHZLCYGPG'
+    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_obusier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_he Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = [ 'ArtillerieM185155MmSmoke' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 3.0
+    TempsEntreDeuxFx                  = 3.0
+    PorteeMaximaleGRU                 = 30000
+    PorteeMinimaleGRU                 = 3000
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU              = 150
+    DispersionAtMinRangeGRU              = 60
+    DispersionWithoutSorting          = True
+    CorrectedShotDispersionMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 0.132
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 0
+    SuppressDamages                   = 7.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    MaximalSpeedGRU                   = 0.0
+    ShotWithoutPhysics                = False
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{4d186a87-bfcc-4dcd-b899-f536ca01d0e4}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 0),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    TempsDeVisee                      = 10.0
+    TempsEntreDeuxSalves              = 55.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 6
+    SupplyCost                        = 6.0
+    NbSalvosShootOnPosition           = 1
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 7
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_GCT_F1"
+    SmokeDescriptor                   = $/GFX/Weapon/Descriptor_Smoke_Fumi152mm
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    FlightTimeForSpeed                    = 25.0
+    DistanceForSpeedGRU                   = 30000.0
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 

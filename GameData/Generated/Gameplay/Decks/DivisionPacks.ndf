@@ -16,6 +16,13 @@ Descriptor_Deck_Pack_VBMR_Griffon_CMD_FR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_VBMR_Griffon_CMD_FR
 )
 
+//ART
+
+Descriptor_Deck_Pack_CAESAR_6x6_MKII_FR is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_CAESAR_6x6_MKII_FR
+)
+
 //AA
 
 Descriptor_Deck_Pack_SAMP_Mamba_FRA is DeckPackDescriptor

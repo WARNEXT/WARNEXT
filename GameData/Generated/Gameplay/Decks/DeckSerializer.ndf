@@ -1491,5 +1491,7 @@ DeckSerializer is TDeckSerializer
 
         ($/GFX/Unit/Descriptor_Unit_GBC_180_supply_FR, 6000),
         ($/GFX/Unit/Descriptor_Unit_VBMR_Griffon_CMD_FR, 6001),
+        ($/GFX/Unit/Descriptor_Unit_CAESAR_6x6_MKII_FR, 6002),
+        ($/GFX/Unit/Descriptor_Unit_SAMP_Mamba_FRA, 6003),
     ]
 )

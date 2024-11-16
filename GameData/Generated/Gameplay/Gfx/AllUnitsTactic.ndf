@@ -1,14 +1,13 @@
 // Ne pas éditer, ce fichier est généré par AllUnitsFileWriter_Specific
 
 AllUnitsTactic is [
-    
-    //START WARNEXT MOD
 
     $/GFX/Unit/Descriptor_Unit_GBC_180_supply_FR,
     $/GFX/Unit/Descriptor_Unit_VBMR_Griffon_CMD_FR,
+    $/GFX/Unit/Descriptor_Unit_CAESAR_6x6_MKII_FR,
     $/GFX/Unit/Descriptor_Unit_SAMP_Mamba_FRA,
 
-    //END WARNEXT MOD
+
 
     $/GFX/Unit/Descriptor_Unit_2K11_KRUG_DDR,
     $/GFX/Unit/Descriptor_Unit_2K12_KUB_DDR,

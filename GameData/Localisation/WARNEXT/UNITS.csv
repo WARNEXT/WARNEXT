@@ -1,11 +1,15 @@
 "TOKEN";"REFTEXT"
 
-
+"DIV";"div"
 "FR1DB";"1re Division Blindé"
 
-
+"UNITS";"units"
 "FRGBC180L";"GBC 180 Log"
 "FRGRIFPC";"VBMR Griffon PC"
+"FRCAESARNG";"Caesar 6x6 MkII"
 "FRMAMBA";"SAMP Mamba"
 
+"AMMO";"ammo"
+"T1HORNET";"T1 Hornet RWS"
+"15552CESAR";"155/52"
 "ASTER30X8";"ASTER 30 Block 1"

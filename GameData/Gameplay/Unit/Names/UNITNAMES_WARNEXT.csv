@@ -1,19 +1,30 @@
 "TOKEN";"REFTEXT"
-"FRMAMBA";"SAMP/T Mamba"
-"FRRAFF4AA";"Rafale F4 [AA]"
-"FRRAFF4HE";"Rafale F4 [HE]"
-"FRCAESARNG";"Caesar 6x6 MkII"
-"FRLRUM270";"LRU M270"
-"FRMEPAC";"Griffon MEPAC"
-"FRTIGRHAD";"Tigre MkII HAD"
+
+"FRVBCIVBI";"VBCI/VBI"
+"FRGUEPARD";"H160M Guepard"
+"FRGRIFFON";"VBMR Griffon"
+
+
+
+"FRGBC180L";"GBC 180 Log"
+"FRGRIFPC";"VBMR Griffon PC"
+
 "GRENVOL";"Gren.-Voltigeurs"
 "GRENVOLCDT";"CMDT Gren.-Voltigeurs"
 "FRMMPAT";"MMP"
-"FRGRIFPC";"VBMR Griffon PC"
-"FRJAGUAR";"EBRC Jaguar"
+
+"FRCAESARNG";"Caesar 6x6 MkII"
+"FRLRUM270";"LRU M270"
+"FRMEPAC";"Griffon MEPAC"
+
 "FRLECXLR";"Leclerc XLR"
-"FRVBCIVBI";"VBCI/VBI"
-"FRGRIFFON";"VBMR Griffon"
-"FRGBC180L";"GBC 180 Log"
+
+"FRJAGUAR";"EBRC Jaguar"
 "FRGCM";"GCM"
-"FRGUEPARD";"H160M Guepard"
+
+"FRMAMBA";"SAMP/T Mamba"
+
+"FRTIGRHAD";"Tigre MkII HAD"
+
+"FRRAFF4AA";"Rafale F4 [AA]"
+"FRRAFF4HE";"Rafale F4 [HE]"
