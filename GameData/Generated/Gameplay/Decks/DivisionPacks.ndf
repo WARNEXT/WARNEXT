@@ -1,8 +1,10 @@
 // Ne pas éditer, ce fichier est généré par DivisionPacksFileWriter
 
-//Start mod
+//START WARNEXT MOD
 
-//Start 1re DB
+//FRA
+
+//LOG
 
 Descriptor_Deck_Pack_GBC_180_supply_FR is DeckPackDescriptor
 (
@@ -14,9 +16,14 @@ Descriptor_Deck_Pack_VBMR_Griffon_CMD_FR is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_VBMR_Griffon_CMD_FR
 )
 
-//End 1re DB
+//AA
 
-//End mod
+Descriptor_Deck_Pack_SAMP_Mamba_FRA is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_SAMP_Mamba_FRA
+)
+
+//END WARNEXT MOD
 
 
 Descriptor_Deck_Pack_2K11_KRUG_DDR is DeckPackDescriptor

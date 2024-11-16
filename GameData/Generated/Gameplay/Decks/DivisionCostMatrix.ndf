@@ -1,6 +1,8 @@
 // Ne pas éditer, ce fichier est généré par DivisionCostMatrixFileWriter
 
-//Start mod
+//START WARNEXT MOD
+
+//FRA
 
 MatrixCostName_FR_1e_Blindee_multi is MAP
 [
@@ -16,7 +18,7 @@ MatrixCostName_FR_1e_Blindee_multi is MAP
 ]
 
 
-//End mod
+//END WARNEXT MOD
 
 
 MatrixCostName_Challenge is MAP

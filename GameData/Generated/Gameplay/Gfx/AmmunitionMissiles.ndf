@@ -1,5 +1,86 @@
 // Ne pas éditer, ce fichier est généré par AmmunitionFileWriter_Missile
 
+//START WARNEXT MOD
+
+//AA
+
+//ASTER 30 BLOCK 1 based on Ammo_SAM_9M8M3_x2
+Ammo_SAM_Aster30_Block1_x8 is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{4faa50e2-6d9f-4f38-b9fc-a1df06ee499a}
+    Name                              = 'ASTER30X8'
+    TypeCategoryName                  = 'RGUHEGFUDW'
+    Caliber                           = 'CCYZVFZIEZ'
+    WeaponDescriptionToken            = 'WIPELYEGTV'
+    TraitsToken                       = [ 'STAT', 'RADAR', ]
+    WeaponCursorType                  = Weapon_Cursor_AirMissile
+    MinMaxCategory                    = MinMax_SAM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MIssileAAKRUG3M8M' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 6.0
+    TempsEntreDeuxFx                  = 6.0
+    PorteeMaximaleHAGRU               = 6000
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 159
+    PhysicalDamages                   = 13.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 286
+    SuppressDamages                   = 1200.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 14000
+    MaxAccelerationGRU                = 2826
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{d6ddf20e-22a2-47e5-a02a-eb9f89aaa339}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 70),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 3
+    Guidance                          = Guidance_Radar
+    TempsDeVisee                      = 1.0
+    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 8
+    SupplyCost                        = 200
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 8
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_Aster30_Block1"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_SAM_Aster30_Block1
+)
+
+//END WARNEXT MOD
 
 Ammo_AA_AIM120A_AMRAAM is TAmmunitionDescriptor
 (

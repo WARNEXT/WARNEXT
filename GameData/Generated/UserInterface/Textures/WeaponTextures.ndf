@@ -1,5 +1,15 @@
 // Ne pas éditer, ce fichier est généré par WeaponTextureFileWriter
 
+//START WARNEXT MOD
+
+//AA
+
+Texture_Interface_Weapon_Aster30_Block1 is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/Aster30_Block1.png"
+)
+
+//END WARNEXT MOD
 
 
 Texture_Interface_Weapon_GIAT_M621 is TUIResourceTexture_Common

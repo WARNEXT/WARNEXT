@@ -1,6 +1,6 @@
 // Ne pas éditer, ce fichier est généré par ShowRoomUnitDescriptorFileWriter
 
-//Start mod
+//START WARNEXT MOD
 
 //Start 1re DB
 
@@ -75,9 +75,48 @@ export Descriptor_ShowRoomUnit_VBMR_Griffon_CMD_FR is TEntityDescriptor
     ]
 )
 
+//AA
+
+//SAMP Mamba based on Descriptor_ShowRoomUnit_2K12_KUB_DDR
+export Descriptor_ShowRoomUnit_SAMP_Mamba_FRA is TEntityDescriptor
+(
+    DescriptorId        = GUID:{151ffd85-d386-4c84-b834-6d4311aede87}
+    ClassNameForDebug   = "ShowRoomUnit_SAMP_Mamba_FRA"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_SAM
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_2K12_KUB_DDR_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_2K12_KUB_DDR
+        ),
+        $/GFX/Weapon/WeaponDescriptor_SAMP_Mamba_FRA,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+
 //End 1re DB
 
-//End mod
+//END WARNEXT MOD
 
 export Descriptor_ShowRoomUnit_2K11_KRUG_DDR is TEntityDescriptor
 (

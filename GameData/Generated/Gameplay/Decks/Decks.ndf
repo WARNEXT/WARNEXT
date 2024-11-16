@@ -1,6 +1,6 @@
 // Ne pas éditer, ce fichier est généré par DecksFileWriter
 
-//Start mod
+//START WARNEXT MOD
 
 export Descriptor_Deck_FR_1e_Blindee_multi is TDeckDescriptor
 (
@@ -8,11 +8,12 @@ export Descriptor_Deck_FR_1e_Blindee_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_FR_1e_Blindee_multi
     DeckPackList =
     [
-
+        //AA
+        ~/Descriptor_Deck_Pack_SAMP_Mamba_FRA_0,
     ]
 )
 
-//End mod
+//END WARNEXT MOD
 
 export Descriptor_Deck_RDA_4_MSD_multi is TDeckDescriptor
 (

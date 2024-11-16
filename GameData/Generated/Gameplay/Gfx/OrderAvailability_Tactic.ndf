@@ -1,8 +1,16 @@
 // Ne pas éditer, ce fichier est généré par OrderAvailabilityFileWriter_Specific
 
+//START WARNEXT MOD
+
+//LOG
+
 Descriptor_OrderAvailability_VBMR_Griffon_CMD_FR is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'ShootOnPosition', 'ShootOnPositionWithoutCorrection', 'ShootDefensiveSmoke', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']
 
+//AA
 
+Descriptor_OrderAvailability_SAMP_Mamba_FRA is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']
+
+//END WARNEXT MOD
 
 Descriptor_OrderAvailability_2K11_KRUG_DDR is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']
 Descriptor_OrderAvailability_2K12_KUB_DDR is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']

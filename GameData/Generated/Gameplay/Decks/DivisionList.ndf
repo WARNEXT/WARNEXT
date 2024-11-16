@@ -4,7 +4,11 @@ private DivisionList is TDeckDivisionList
 (
     DivisionList =
     [
+        //START WARNEXT MOD
+
         ~/Descriptor_Deck_Division_FR_1e_Blindee_multi,
+
+        //END WARNEXT MOD
 
         ~/Descriptor_Deck_Division_US_3rd_Arm_multi,
         ~/Descriptor_Deck_Division_US_8th_Inf_multi,

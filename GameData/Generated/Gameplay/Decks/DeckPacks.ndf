@@ -1,5 +1,13 @@
 // Ne pas éditer, ce fichier est généré par DeckPacksFileWriter
 
+//START WARNEXT MOD
+
+Descriptor_Deck_Pack_SAMP_Mamba_FRA_0 is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_SAMP_Mamba_FRA
+)
+
+//END WARNEXT MOD
 
 Descriptor_Deck_Pack_2K11_KRUG_DDR_1 is DeckPackDescriptor
 (
