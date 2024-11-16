@@ -3,7 +3,7 @@
 
 //Start Mod
 
-Ammo_HMG_12_7_mm_M2HB_mod is TAmmunitionDescriptor
+Ammo_HMG_12_7_mm_M2HB_T1_Hornet_RWS is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{f3767b52-f9b4-4652-bd2c-266d88f79e34}
     Name                              = 'SUJFTVYPPZ'
