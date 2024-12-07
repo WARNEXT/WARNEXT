@@ -1547,5 +1547,6 @@ WeaponAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Interface_Weapon_roland", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_roland)]),
         ("Texture_Interface_Weapon_9K31_Strela", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_9K31_Strela)]),
         ("Texture_Interface_Weapon_Strela_10", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Strela_10)]),
+        ("Texture_Interface_Weapon_Aster30_Block1", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Aster30_Block1)]),
     ]
 )

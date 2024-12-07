@@ -7,7 +7,7 @@
 //ASTER 30 BLOCK 1 based on Descriptor_Missile_SAM_9M8M3_x2
 export Descriptor_Missile_SAM_Aster30_Block1 is TEntityDescriptor
 (
-    DescriptorId       = GUID:{cedf23ab-f165-4d2e-8035-98c948277abe}
+    DescriptorId       = GUID:{264766a2-77c7-41f6-a667-61432bdfb6a2}
     ClassNameForDebug  = 'Missile_SAM_Aster30_Block1'
     ModulesDescriptors = [
         ~/SimpleTypeUnitModuleDescriptor,
@@ -21,7 +21,7 @@ export Descriptor_Missile_SAM_Aster30_Block1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             //TEMP MODEL MISSILE
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_3M8M

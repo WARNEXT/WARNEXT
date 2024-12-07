@@ -8,7 +8,7 @@ Descriptor_Deck_Division_FR_1e_Blindee_multi is TDeckDivisionDescriptor
     CfgName = 'FR_1e_Blindee_multi'
     DivisionName = 'FR1DB'
     DivisionPowerClassification = 'DC_PWR1'
-    DivisionNationalite = ENationalite/Allied
+    DivisionCoalition = ECoalition/Allied
     DivisionTags = ['DEFAULT', 'FR', 'Allied', 'armored', 'DC_PWR1']
     DescriptionHintTitleToken = 'FR1DB'
     PackList = MAP
