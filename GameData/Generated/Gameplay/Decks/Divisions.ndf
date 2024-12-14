@@ -17,6 +17,7 @@ Descriptor_Deck_Division_FR_1e_Blindee_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_VBMR_Griffon_CMD_FR, 1),
         (~/Descriptor_Deck_Pack_CAESAR_6x6_MKII_FR, 1),
         (~/Descriptor_Deck_Pack_SAMP_Mamba_FRA, 1),
+        (~/Descriptor_Deck_Pack_LECLERC_XLR_FRA, 2),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_FR_1e_Blindee_multi

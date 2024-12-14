@@ -30,6 +30,13 @@ Descriptor_Deck_Pack_SAMP_Mamba_FRA is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_SAMP_Mamba_FRA
 )
 
+//TNK
+
+Descriptor_Deck_Pack_LECLERC_XLR_FRA is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_LECLERC_XLR_FRA
+)
+
 //END WARNEXT MOD
 
 

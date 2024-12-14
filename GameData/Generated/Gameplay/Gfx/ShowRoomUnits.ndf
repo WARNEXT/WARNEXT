@@ -112,6 +112,8 @@ export Descriptor_ShowRoomUnit_SAMP_Mamba_FRA is TEntityDescriptor
     ]
 )
 
+//ART
+
 export Descriptor_ShowRoomUnit_CAESAR_6x6_MKII_FR is TEntityDescriptor
 (
     DescriptorId        = GUID:{330d4bb5-40d9-4490-bea1-363adc394f1b}
@@ -144,6 +146,46 @@ export Descriptor_ShowRoomUnit_CAESAR_6x6_MKII_FR is TEntityDescriptor
         TCameraShowroomModuleDescriptor
         (
             SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+
+//TNK
+
+//Based on Descriptor_ShowRoomUnit_AMX_30_B2_Brennus_FR
+export Descriptor_ShowRoomUnit_LECLERC_XLR_FRA is TEntityDescriptor
+(
+    DescriptorId        = GUID:{60b5f52e-d7ed-4d8e-be0b-4ca76f14e471}
+    ClassNameForDebug   = "ShowRoomUnit_LECLERC_XLR_FRA"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_AMX_30_B2_Brennus_FR_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_AMX_30_B2_Brennus_FR
+        ),
+        $/GFX/Weapon/WeaponDescriptor_LECLERC_XLR_FRA,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+            HasServants = False
         ),
     ]
 )

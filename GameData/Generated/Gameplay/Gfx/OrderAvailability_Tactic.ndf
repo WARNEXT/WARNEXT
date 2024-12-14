@@ -10,6 +10,10 @@ Descriptor_OrderAvailability_VBMR_Griffon_CMD_FR is ['Stop', 'Move', 'FollowForm
 
 Descriptor_OrderAvailability_SAMP_Mamba_FRA is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']
 
+//TNK
+
+Descriptor_OrderAvailability_LECLERC_XLR_FRA is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'ShootOnPosition', 'ShootOnPositionWithoutCorrection', 'ShootDefensiveSmoke', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']
+
 //END WARNEXT MOD
 
 Descriptor_OrderAvailability_2K11_KRUG_DDR is ['Stop', 'Move', 'FollowFormation', 'QuickMove', 'Attack', 'FastMoveAndAttack', 'MoveAndAttack', 'Spread', 'Reverse', 'Shoot', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop']
