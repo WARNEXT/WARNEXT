@@ -21,6 +21,7 @@ Ammo_SAM_Aster30_Block1_x8 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 6.0
     TempsEntreDeuxFx                  = 6.0
+    PorteeMaximaleTBAGRU              = 3500
     PorteeMaximaleHAGRU               = 6000
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
