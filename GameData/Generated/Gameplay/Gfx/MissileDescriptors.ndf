@@ -177,6 +177,16 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -266,6 +276,16 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -349,6 +369,16 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -432,6 +462,16 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -521,6 +561,16 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -610,6 +660,16 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -699,6 +759,16 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -788,6 +858,16 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -877,6 +957,16 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -960,6 +1050,16 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1043,6 +1143,16 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1126,6 +1236,16 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1215,6 +1335,16 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1298,6 +1428,16 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1381,6 +1521,16 @@ export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1464,6 +1614,16 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1547,6 +1707,16 @@ export Descriptor_Missile_AA_R27ER_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1630,6 +1800,16 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1713,6 +1893,16 @@ export Descriptor_Missile_AA_R27T_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1796,6 +1986,16 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1879,6 +2079,16 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1968,6 +2178,16 @@ export Descriptor_Missile_AA_R3R is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2051,6 +2271,16 @@ export Descriptor_Missile_AA_R40RD1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2134,6 +2364,16 @@ export Descriptor_Missile_AA_R40TD1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2223,6 +2463,16 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2312,6 +2562,16 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2401,6 +2661,16 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2490,6 +2760,16 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2579,6 +2859,16 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2668,6 +2958,16 @@ export Descriptor_Missile_AA_R60M_Vympel_helo is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2757,6 +3057,16 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2846,6 +3156,16 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2935,6 +3255,16 @@ export Descriptor_Missile_AA_R98MR is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -3018,6 +3348,16 @@ export Descriptor_Missile_AA_R98MT is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -3101,6 +3441,16 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -3184,6 +3534,16 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -11132,6 +11492,88 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
         ~/TargetDataModuleDescriptor,
     ]
 )
+export Descriptor_Missile_ATGM_BGM71D_TOW_2A is TEntityDescriptor
+(
+    DescriptorId       = GUID:{ab24fe76-83c0-4d25-ba06-512f12d2e6a3}
+    ClassNameForDebug  = 'Missile_ATGM_BGM71D_TOW_2A'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_ATGM_BGM71D_TOW_2A",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 427
+                MaxAccelerationGRU = 265
+                AutoGyr            = 1.3962634015954636
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 427
+                MaxAccelerationGRU = 265
+                AutoGyr            = 0.17453292519943295
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 1250
+            AngleMaxForRandomMouvUncontrollable = 0.01
+            RotationSpeedWhenUncontrollable = 1
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
 export Descriptor_Missile_ATGM_BGM71D_TOW_2A_x2 is TEntityDescriptor
 (
     DescriptorId       = GUID:{1dcb8774-92e6-4d14-9ea2-6c97c5a9353c}
@@ -14530,6 +14972,16 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14620,6 +15072,16 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14956,6 +15418,16 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15046,6 +15518,16 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15136,6 +15618,16 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15226,6 +15718,16 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15316,6 +15818,16 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15406,6 +15918,16 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15496,6 +16018,16 @@ export Descriptor_Missile_MANPAD_Strela3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15586,6 +16118,16 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15676,6 +16218,16 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15766,6 +16318,16 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15855,6 +16417,16 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15944,6 +16516,16 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16027,6 +16609,16 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16116,6 +16708,16 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16205,6 +16807,16 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16294,6 +16906,16 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16377,6 +16999,16 @@ export Descriptor_Missile_SAM_9M8M3_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16466,6 +17098,16 @@ export Descriptor_Missile_SAM_ADATS is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16555,6 +17197,16 @@ export Descriptor_Missile_SAM_Aspide_1A_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16645,6 +17297,16 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16735,6 +17397,16 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4_TOWED is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16825,6 +17497,16 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16915,6 +17597,16 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17005,6 +17697,16 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17095,6 +17797,16 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17185,6 +17897,16 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17274,6 +17996,16 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17363,6 +18095,16 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17453,6 +18195,16 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17543,6 +18295,16 @@ export Descriptor_Missile_SAM_IglaN is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17633,6 +18395,16 @@ export Descriptor_Missile_SAM_IglaN_1M is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17723,6 +18495,16 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17813,6 +18595,16 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17902,6 +18694,16 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17991,6 +18793,16 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18080,6 +18892,16 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18170,6 +18992,16 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18259,6 +19091,16 @@ export Descriptor_Missile_SAM_R440_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18348,6 +19190,16 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18437,6 +19289,16 @@ export Descriptor_Missile_SAM_RAPIER_DARKFIRE_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18526,6 +19388,16 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18615,6 +19487,16 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18704,6 +19586,16 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18793,6 +19685,16 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18882,6 +19784,16 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18971,6 +19883,16 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19060,6 +19982,16 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19149,6 +20081,16 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19238,6 +20180,16 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19327,6 +20279,16 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19417,6 +20379,16 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19507,6 +20479,16 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19597,6 +20579,16 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19687,6 +20679,16 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19777,6 +20779,16 @@ export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19867,6 +20879,16 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19957,6 +20979,16 @@ export Descriptor_Missile_SAM_Strela2M_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
